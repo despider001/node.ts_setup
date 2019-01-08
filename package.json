@@ -1,0 +1,26 @@
+{
+  "name": "setup-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --w",
+    "start": "tsc && node ./dist/index.js",
+    "devServer": "nodemon ./dist/index.js"
+  },
+  "author": "Md Sadiqur Rahman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.10",
+    "nodemon": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/dotenv": "^6.1.0",
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.3.7"
+  }
+}
